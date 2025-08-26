@@ -6,7 +6,7 @@ public interface IProductoServicio {
     public List<Producto> listarProductos();
     public Producto buscarPorductoPorId(Integer idProducto);
 
-    public void guardarProducto(Producto producto);
+    public Producto guardarProducto(Producto producto);
 
     public void eliminarProductoPorId(Integer idProducto);
 }
